@@ -5,18 +5,19 @@ window.onload = (function(){start()}); // Only load the script on page load..
 function start () {
 console.log("AutoTranslate Version 0.1") // Version
 
-// EngToGerman(); // Temporary..
 
 let language = window.navigator.userLanguage || window.navigator.language; // Get the browser language.
 
 // English UK
 if (language == "en-GB") {
-console.log(language + " - No need to change the page as it is already English!")
+console.log(language + " - No need to change the page as it is already English!");
+GerToEnglish();
 }
 
 // English US
 else if (language == "en-US") {
-console.log(language + " - No need to change the page as it is already English!")
+console.log(language + " - No need to change the page as it is already English!");
+GerToEnglish();
 }
 
 // German
@@ -29,6 +30,81 @@ else {
 console.log("Unsupported language: " + language)
 }
 }
+
+// Translate German To English
+function GerToEnglish() {
+console.log("Translating German to English..");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Hilfe uns bauen das zukunft.","Help us build the future.");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Jetzt in sicherer entfernung.","Now at a safe distance.");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Sie befinden sich auf unserer Desktop-freundlichen Website.","You're on our desktop friendly website.");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Hallo","Hello");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("hallo","hello");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Meine","My");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("meine","my");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Brudda","Brother");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("brudda","brother");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Bauen","Build");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("bauen","build");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Das","The");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("das","the");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Zukunft","Future");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("zukunft","future");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Zuhause","Home");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("zuhause","home");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Über","About");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Über","about");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Kontakt","Contact");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("kontakt","contact");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Hilfe","Help");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("hilfe","help");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Konto","Account");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("konto","account");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Sie","You");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("sie","you");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Sicherheit","Security");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("sicherheit","security");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Mehr","More");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("mehr","more");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Uns","Us");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("uns","us");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Zum","For");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("zum","for");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Jetzt","Now");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("jetzt","now");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Beim","At");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("beim","at");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Sicher","Safe");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("sicher","safe");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Ein","A");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("ein","a");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Herzlich willkommen","Welcome");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("herzlich willkommen","welcome");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Zuruck","Back");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("zuruck","back");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Nicht","Not");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("nicht","not");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Zeichen","Sign");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("zeichen","sign");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Aus","Out");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("aus","out");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Behalten","Keep");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("behalten","keep");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Suchen","Looking");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("suchen","looking");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Wir","We");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("wir","we");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Vielleicht","Perhaps");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("vielleicht","perhaps");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Die Info","Info");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("die info","info");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Ja","Yes");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("ja","yes");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Neine","No");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("neine","no");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("Ihre","Your");
+document.getElementById("AutoTranslate").innerHTML = String(document.getElementById("AutoTranslate").innerHTML).replace("ihre","your");	
+}
+
 
 // Translate English to German!
 function EngToGerman() {
