@@ -10,6 +10,7 @@ The new, automated way to translate your webpage.
   
 #### Supported Languages
 1. English To German (Version 0.1 ALPHA)
+2. German To English (Version 0.1 ALPHA)
   
   
 #### How The Script Is Automated
@@ -22,6 +23,7 @@ Using this script will give your website a massive advantage when visitors from 
   
 #### Manually Calling Translation 
 1. To translate the page to German from English simply call <code>EngToGerman();</code> in a script section of your website or on a click event.
+2. To translate the page to English from German simply call <code>GerToEnglish();</code> in a script section of your website or on a click event.
 
 #### CodePen Example
 https://codepen.io/alexander-walford/pen/dypKrQg 
