@@ -22,3 +22,6 @@ Using this script will give your website a massive advantage when visitors from 
   
 #### Manually Calling Translation 
 1. To translate the page to German from English simply call <code>EngToGerman();</code> in a script section of your website or on a click event.
+
+#### CodePen Example
+https://codepen.io/alexander-walford/pen/dypKrQg 
