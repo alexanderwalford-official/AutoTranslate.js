@@ -7,3 +7,6 @@ The new, automated way to translate your webpage.
 <code><script src="https://renovatesoftware.com:140/js/AutoTranslate.js"></script></code>
   
 2. Then add the id of "AutoTranslate" to any elements you wish to translate.
+
+#### Supported Languages
+1. English To German (Version 0.1 ALPHA)
