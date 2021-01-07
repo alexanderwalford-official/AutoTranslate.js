@@ -5,7 +5,7 @@ The new, automated way to translate your webpage.
 ### Website Installation (RSL CDN)
 1. Simply add the following code before the end of your body tag: <code><script src="https://renovatesoftware.com:140/js/AutoTranslate.js"></script></code>
 
-2. Then add the ID of "AutoTranslate" to any elements you wish to translate.
+2. Then add the ID of "AutoTranslate" to the element you wish to translate, I recommend adding it to your body tag.
   
   
 #### Supported Languages
