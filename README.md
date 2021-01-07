@@ -1,6 +1,7 @@
 # AutoTranslate.js
 The new, automated way to translate your webpage.
 
+
 ### Website Installation (CDN)
 1. Simply add the following code before the end of your <body> tag:
   
