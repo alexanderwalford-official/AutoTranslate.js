@@ -27,3 +27,6 @@ Using this script will give your website a massive advantage when visitors from 
 
 #### CodePen Example
 https://codepen.io/alexander-walford/pen/dypKrQg 
+
+#### Real Working Example
+See this libary working in the wild: https://renovatesoftware.com/translate
